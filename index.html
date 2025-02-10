@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Kharisma</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function showDescription(id) {
+      const descriptions = document.querySelectorAll('.award-description');
+      descriptions.forEach(desc => desc.style.display = 'none');
+      const description = document.getElementById(id);
+      description.style.display = 'block';
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#honor-awards">Honor and Awards</a></li>
+        <li><a href="https://github.com/gumilangkharismaa" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/kharisma-gumilang/" target="_blank">LinkedIn</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1>Hi, I am Kharisma Gumilang</h1>
+      <p>Welcome to my portfolio!</p>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            I am an undergraduate Data Science student at Institut Teknologi Sumatera, passionate about uncovering the value hidden within data. My expertise includes analyzing, processing, and integrating structured and unstructured datasets, particularly numerical data, to generate meaningful insights and support decision-making. I am skilled in using tools like Python, SQL, and R, as well as data visualization techniques to communicate findings effectively.
+
+            I have gained hands-on experience through various projects, including machine learning applications, time series forecasting, and deep learning model implementation. These experiences have sharpened my analytical and problem-solving skills, allowing me to approach complex challenges with confidence and creativity.
+            
+            In addition to technical proficiency, I am a highly motivated learner and a collaborative team player, committed to leveraging data science to solve real-world problems. I look forward to contributing my skills and growing as a professional in dynamic and innovative environments.
+            
+            Let’s connect and explore how data can drive meaningful change!
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="images/fotopp.jpeg" alt="Kharisma Gumilang">
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+      
+        <!-- Organizational Experience -->
+        <h3>Organizational Experience</h3>
+        <div class="experience-container">
+          <div class="experience-item">
+            <img src="images/Ketua himpunan.jpeg" alt="HMSD Adyatama">
+            <div class="experience-text">
+              <h3>Chairman - HMSD Adyatama</h3>
+              <p>Feb 2024 - Dec 2024</p>
+              <p>Leading and coordinating HMSD Adyatama activities, supervising divisions, and developing strategies to enhance members' skills in Data Science.</p>
+            </div>
+          </div>
+      
+          <div class="experience-item">
+            <img src="images/Ketua kader.jpeg" alt="Cadre Regeneration Division">
+            <div class="experience-text">
+              <h3>Head of Cadre Regeneration Division - HMSD Adyatama</h3>
+              <p>Feb 2023 - Feb 2024</p>
+              <p>Designed and implemented cadre development programs to cultivate leadership and teamwork among members.</p>
+            </div>
+          </div>
+      
+          <div class="experience-item">
+            <img src="images/Pemandu LKMM.jpeg" alt="LKMM ITERA">
+            <div class="experience-text">
+              <h3>LKMM ITERA Guide - Institut Teknologi Sumatera</h3>
+              <p>Jan 2024 - Dec 2024</p>
+              <p>Facilitated leadership and management training sessions for students.</p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Work Experience  -->
+        <h3>Work Experience (Internship)</h3>
+        <div class="experience-container">
+          <div class="experience-item">
+            <img src="images/Public Relation.jpeg" alt="Public Relations ITERA">
+            <div class="experience-text">
+              <h3>Public Relations Intern - Data Science, Institut Teknologi Sumatera</h3>
+              <p>Feb 2023 - Jan 2024</p>
+              <p>Managed content creation, publications, and branding for the Data Science study program.</p>
+            </div>
+          </div>
+      
+          <div class="experience-item">
+            <img src="images/telkom indonesia market.jpeg" alt="Telkom Indonesia">
+            <div class="experience-text">
+              <h3>Analytics Support Intern - Telkom Indonesia</h3>
+              <p>Jun 2024 - Aug 2024</p>
+              <p>Maintained shareholder databases, conducted market research, and assisted in strategic decision-making.</p>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <img src="images/basdat.jpeg" alt="Institut Teknologi Sumatera">
+            <div class="experience-text">
+              <h3>Database Laboratory Assistant - Data Science ITERA </h3>
+              <p>Jun 2024 - Aug 2024</p>
+              <p>Maintained shareholder databases, conducted market research, and assisted in strategic decision-making.</p>
+            </div>
+          </div>
+      
+          <div class="experience-item">
+            <img src="images/Tribun.jpeg" alt="Tribun Network">
+            <div class="experience-text">
+              <h3>Young Journalist - Tribun Network - KG Media</h3>
+              <p>Apr 2020 - Mar 2021</p>
+              <p>Created youth-focused content and managed social media engagement for Tribun Sumsel.</p>
+            </div>
+          </div>
+        </div>
+      </section>      
+      
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+          <div class="project">
+            <img src="images/Klasifikasi katak.jpeg" alt="Frog Call Classification">
+            <div class="project-text">
+              <h3>Frog Call Classification</h3>
+              <p>Using Modified DenseNet-121 & Modified DenseNet-169 for classifying frog calls.</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/Audio Sentiment Analysis.jpeg" alt="Audio Sentiment and Classification">
+            <div class="project-text">
+              <h3>Audio Sentiment and Classification</h3>
+              <p>Using CNNs and Transformers to classify audio sentiments as excellent, good, neutral, or bad.</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/Polinomial.jpeg" alt="Indonesian Export Value Prediction">
+            <div class="project-text">
+              <h3>Indonesian Export Value Prediction</h3>
+              <p>Analyzing export value predictions using the Polynomial Regression method.</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/Alzheimer.jpeg" alt="Alzheimer's Disease Inhibitor Analysis">
+            <div class="project-text">
+              <h3>Alzheimer's Disease Inhibitor Analysis</h3>
+              <p>Deep learning approach to analyze inhibitors for Alzheimer's disease.</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/Demp Mount.jpeg" alt="Plantation Area Mapping">
+            <div class="project-text">
+              <h3>Plantation Area Mapping</h3>
+              <p>Spatial Clustering Analysis for mapping plantation areas around Mount Dempo after eruption using K-Means.</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/TLKM Closing price.png" alt="Stock Price Volatility Analysis">
+            <div class="project-text">
+              <h3>Stock Price Volatility Analysis</h3>
+              <p>Analyzing Telkom (TLKM JK) stock price volatility using the ARCH method.</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/Consumer.png" alt="Customer Segmentation in Malls">
+            <div class="project-text">
+              <h3>Customer Segmentation in Malls</h3>
+              <p>Using K-Means Clustering to identify customer groups in shopping malls.</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/Resiko Kematian.png" alt="Heart Failure Prediction">
+            <div class="project-text">
+              <h3>Heart Failure Prediction</h3>
+              <p>Predicting a person's chance of developing heart failure using Naive Bayes and SVM.</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/Dashboard.png" alt="Google Looker Dashboard">
+            <div class="project-text">
+              <h3>Google Looker Dashboard</h3>
+              <p>Creating a dashboard for visualizing basic food sales results using Google Looker.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section id="honor-awards">
+      <h2>Honor and Awards</h2>
+      <div class="awards">
+        <div class="award" onclick="showDescription('award1-description')">
+          <img src="images/bestpresenter2nd.png" alt="Award 1">
+        </div>
+        <div class="award" onclick="showDescription('award2-description')">
+          <img src="images/bpjs.png" alt="Award 2">
+        </div>
+        <div class="award" onclick="showDescription('award3-description')">
+          <img src="images/Pemateri HIMAFI.jpeg" alt="Award 3">
+        </div>
+        <div class="award" onclick="showDescription('award4-description')">
+          <img src="images/Pemateri HIMASAKA.jpeg" alt="Award 4">
+        </div>
+        <div class="award" onclick="showDescription('award5-description')">
+          <img src="images/Pemateri hmsd.jpeg" alt="Award 5">
+        </div>
+      </div>
+    
+      <!-- Deskripsi Award -->
+      <div class="award-description" id="award1-description" style="display:none;">
+        <h3>Runner up for best presenter</h3>
+        <p>Second place as best presenter at the National Science Seminar III Indonesia Open University</p>
+      </div>
+      <div class="award-description" id="award2-description" style="display:none;">
+        <h3>Awarded for participant in Healthkaton 2024</h3>
+        <p>Participated in the Data Analyst Project Healthkaton in 2023 as part of the Sobat Data team.</p>
+      </div>
+      <div class="award-description" id="award3-description" style="display:none;">
+        <h3>Speaker for Organizational and Leadership Training (LKMM)</h3>
+        <p>SCertificate of Appreciation for serving as a speaker on Fundamentals of Organization at the Physics Student Association, Institut Teknologi Sumatera.</p>
+      </div>
+      <div class="award-description" id="award4-description" style="display:none;">
+        <h3>Speaker for Organizational and Leadership Training (LKMM)</h3>
+        <p>Certificate of Appreciation for serving as a speaker on Conflict Management at the Atmospheric and Planetary Sciences Student Association, Institut Teknologi Sumatera.</p>
+      </div>
+      <div class="award-description" id="award5-description" style="display:none;">
+        <h3>Speaker for Organizational and Leadership Training (LKMM)</h3>
+        <p>Certificate of Appreciation for serving as a speaker on Leadership at the Data Science Student Association, Institut Teknologi Sumatera</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025, Kharisma Gumilang. All rights reserved.</p>
+  </footer>
+</body>
+</html>
